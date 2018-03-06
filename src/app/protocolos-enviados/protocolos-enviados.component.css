@@ -1804,3 +1804,8 @@
     border-left: 1px solid #d2d6de;
   }
 }
+
+.mrg-left {
+    margin-left: 5%;
+    margin-right: 5%;
+}

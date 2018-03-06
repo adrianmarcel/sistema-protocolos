@@ -1,13 +1,31 @@
 <div class="back-home">
     <div class="col-md-12 text-center">
         <div class="row">
-            <div class=" col-md-12 text-center">
-                <img class="img-responsive" src="../../assets/logoPrincipal.png" alt="Imagem"/>
+            <div class="col-md-3"></div>
+            <div class="col-md-6 text-center">
+                <img class="img-responsive" src="../../assets/logoPrincipal.png" alt="Prefeitura de Alambari"/>
+                <p class="texto-protocolo-home">
+                    <b>SISTEMA PROTOCOLO INTERNO</b>
+                </p>
+                <p class="texto-protocolo-msg">
+                    <b>- NOVO PROTOCOLO -</b>
+                </p>
+            </div>
+            <div class="col-md-3">
+                <br>
+                <br>
+                <h2 class="texto-protocolo-info">
+                    <b>PROTOCOLO Nº</b>
+                </h2>
+                <h1 class="align-box-protocol">
+                    <span class="badge badge-danger">000/2018</span>
+                </h1>
+                <p class="texto-protocolo-info-m">
+                    <b>Data emissão:</b><br>
+                    04/03/2018 ás 15:19
+                </p>
             </div>
         </div>
-        <p class="texto-protocolo-home">
-            <b>SISTEMA PROTOCOLO INTERNO</b>
-        </p>     
     </div>
     <div class="hold-transition skin-blue main-sidebar sidebar-collapse sidebar-mini">
         <aside class="main-sidebar">
@@ -90,16 +108,36 @@
     </div>
     <div class="container back-home-white">
         <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4">
+            <div class="col-md-9 mrg-left">
                 <br>
-                <br>
-                <p class="texto-protocolo-msg">Bem-vindo(a) Usuário.</p>
-                <br>
-                <br>
-                <p class="texto-protocolo-msg">Confira em Consulta de Protocolos Recebidos, se possuí novos protocolos a receber</p>
+                <div class="form-group">
+                    <label for="inputDestinatario">Destinatário</label>
+                    <select class="form-control" id="inputDiretoria">
+                        <option>Diretoria 123</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="inputEnviado">Enviado por</label>
+                    <input type="text" class="form-control" id="inputEnviado" placeholder="Nome do remetente do protocolo">
+                </div>
+                <div class="form-group">
+                    <label for="inputEmailEnviado">E-mail enviado</label>
+                    <input type="email" class="form-control" id="inputEmailEnviado" placeholder="E-mail a ser enviado o protocolo">
+                </div>
+                <div class="form-group">
+                    <label for="inputDescricao">Descrição da solicitação</label>
+                    <textarea class="form-control" id="inputDescricao" placeholder="Descrição da solicitação" rows="3"></textarea>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <button type="submit" class="btn btn-danger btn-block">Cancelar</button>
+                    </div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4"></div>
         </div>
         <br>
     </div>

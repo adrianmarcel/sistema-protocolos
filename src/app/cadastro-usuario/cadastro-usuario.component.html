@@ -7,7 +7,10 @@
         </div>
         <p class="texto-protocolo-home">
             <b>SISTEMA PROTOCOLO INTERNO</b>
-        </p>     
+        </p>
+        <p class="texto-protocolo-msg">
+            <b>- CADASTRO DE USUÁRIOS -</b>
+        </p>
     </div>
     <div class="hold-transition skin-blue main-sidebar sidebar-collapse sidebar-mini">
         <aside class="main-sidebar">
@@ -90,17 +93,43 @@
     </div>
     <div class="container back-home-white">
         <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4">
-                <br>
-                <br>
-                <p class="texto-protocolo-msg">Bem-vindo(a) Usuário.</p>
-                <br>
-                <br>
-                <p class="texto-protocolo-msg">Confira em Consulta de Protocolos Recebidos, se possuí novos protocolos a receber</p>
+            <div class="col-md-9 mrgs">
+                <div class="form-group">
+                    <label for="inputNome">Nome do usuário</label>
+                    <input type="text" class="form-control" id="inputNome" placeholder="Nome do usuário">
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail">Email</label>
+                    <input type="email" class="form-control" id="inputNome" placeholder="Email">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputLogin">Login</label>
+                        <input type="text" class="form-control" id="inputLogin" placeholder="Login">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputSenha">Senha</label>
+                        <input type="password" class="form-control" id="inputSenha" placeholder="Senha">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputDiretoria">Diretoria</label>
+                        <select id="inputDiretoria" class="form-control">
+                            <option selected>Diretoria 1222</option>
+                            <option>Diretoria teste</option>
+                        </select>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <button type="submit" class="btn btn-danger btn-block">Cancelar</button>
+                    </div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4"></div>
+            <br>
         </div>
-        <br>
     </div>
 </div>

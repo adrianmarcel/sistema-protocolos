@@ -1804,3 +1804,27 @@
     border-left: 1px solid #d2d6de;
   }
 }
+
+.mrg-left {
+    margin-left: 5%;
+}
+
+.tamanho-protocol {
+    width: 30%;
+}
+
+.align-box-protocol {
+    font-size: 40px;
+}
+
+.texto-protocolo-info {
+    color: #1e282c;
+    font-size: 20px;
+    text-align: center;
+}
+
+.texto-protocolo-info-m {
+    color: #1e282c;
+    font-size: 16px;
+    text-align: center;
+}
