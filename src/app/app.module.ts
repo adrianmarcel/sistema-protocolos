@@ -11,6 +11,7 @@ import { CadastroUsuarioComponent } from './cadastro-usuario/cadastro-usuario.co
 import { CadastroDiretoriaComponent } from './cadastro-diretoria/cadastro-diretoria.component';
 import { ListarUsuariosComponent } from './listar-usuarios/listar-usuarios.component';
 import { ListarDiretoriasComponent } from './listar-diretorias/listar-diretorias.component';
+import { routing } from './app.routing';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { ListarDiretoriasComponent } from './listar-diretorias/listar-diretorias
     ListarDiretoriasComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
