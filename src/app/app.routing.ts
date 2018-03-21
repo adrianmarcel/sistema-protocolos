@@ -12,14 +12,14 @@ import { ProtocolosEnviadosComponent } from './protocolos-enviados/protocolos-en
 import { ProtocolosRecebidosComponent } from './protocolos-recebidos/protocolos-recebidos.component';
 
 const APP_ROUTES: Routes = [
-    { path: '', component: LoginComponent }
-    { path: 'home', component: HomeComponent }
-    { path: 'cadastro-diretoria', component: CadastroDiretoriaComponent }
-    { path: 'cadastro-usuario', component: CadastroUsuarioComponent }
-    { path: 'listar-diretorias', component: ListarDiretoriasComponent }
-    { path: 'listar-usuarios', component: ListarUsuariosComponent }
-    { path: 'novo-protocolo', component: NovoProtocoloComponent }
-    { path: 'protocolos-enviados', component: ProtocolosEnviadosComponent }
+    { path: '', component: LoginComponent },
+    { path: 'home', component: HomeComponent },
+    { path: 'cadastro-diretoria', component: CadastroDiretoriaComponent },
+    { path: 'cadastro-usuario', component: CadastroUsuarioComponent },
+    { path: 'listar-diretorias', component: ListarDiretoriasComponent },
+    { path: 'listar-usuarios', component: ListarUsuariosComponent },
+    { path: 'novo-protocolo', component: NovoProtocoloComponent },
+    { path: 'protocolos-enviados', component: ProtocolosEnviadosComponent },
     { path: 'protocolos-recebidos', component: ProtocolosRecebidosComponent }
 ];
 
